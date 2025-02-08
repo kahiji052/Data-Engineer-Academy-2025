@@ -1,0 +1,22 @@
+{
+    "Name": "CrawlerCursosIngenieriaDatos",
+    "Role": "arn:aws:iam::123456789012:role/GlueS3Role", 
+    "DatabaseName": "cursos_db", 
+    "Targets": {
+      "s3Targets": [
+        {
+          "Path": "s3://mi-bucket-de-datos/cursos/",
+          "Exclusions": []
+        }
+      ]
+    },
+    "TablePrefix": "curso_",
+    "Description": "Crawler para catalogar datos de cursos de Ingeniería de Datos.",
+    "Schedule": "cron(0 8 * * ? *)", 
+    "Classifiers": [],
+    "CrawlProperties": {
+      "classification": "csv", 
+      "separator": ",",
+      "skip.header.line.count": "1"
+    }
+}

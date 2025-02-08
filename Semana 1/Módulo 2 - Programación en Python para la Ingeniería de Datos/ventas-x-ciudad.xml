@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <row>
+    <index>0</index>
+    <Ventas>230000</Ventas>
+    <Ciudad>Barcelona</Ciudad>
+  </row>
+  <row>
+    <index>1</index>
+    <Ventas>230000</Ventas>
+    <Ciudad>Madrid</Ciudad>
+  </row>
+  <row>
+    <index>2</index>
+    <Ventas>3456700</Ventas>
+    <Ciudad>España</Ciudad>
+  </row>
+  <row>
+    <index>3</index>
+    <Ventas>230000</Ventas>
+    <Ciudad>Honduras</Ciudad>
+  </row>
+  <row>
+    <index>4</index>
+    <Ventas>78900000</Ventas>
+    <Ciudad>México</Ciudad>
+  </row>
+  <row>
+    <index>5</index>
+    <Ventas>230000</Ventas>
+    <Ciudad>Colombia</Ciudad>
+  </row>
+  <row>
+    <index>6</index>
+    <Ventas>567000000</Ventas>
+    <Ciudad>Francia</Ciudad>
+  </row>
+  <row>
+    <index>7</index>
+    <Ventas>1</Ventas>
+    <Ciudad>México</Ciudad>
+  </row>
+</root>

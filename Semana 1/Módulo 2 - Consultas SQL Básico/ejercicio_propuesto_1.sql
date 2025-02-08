@@ -1,0 +1,1 @@
+SELECT nombre_departamento FROM departamentos;
